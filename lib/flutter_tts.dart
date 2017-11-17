@@ -25,6 +25,12 @@ class FlutterTts {
           _channel.invokeMethod('setSpeechRate',num.toString());
       
   }
+  static void shutDown(double num){
+
+
+          _channel.invokeMethod('shutDown');
+      
+  }
 
 
   static void setPitch(double num){
