@@ -27,7 +27,7 @@ class FlutterTts {
   }
 
 
-  static void git(double num){
+  static void setPitch(double num){
 
 
           _channel.invokeMethod('setPitch',num.toString());
